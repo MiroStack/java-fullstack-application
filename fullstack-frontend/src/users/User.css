@@ -1,0 +1,29 @@
+.user-data-cnt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 55em;
+    width: 55em;
+    border-radius: 8px;
+    padding: 1em;
+    padding: 1em 3em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5em;
+    background-color: var(--color-lightgray);
+}
+.user-data-cnt > p{
+    font-size: 2em;
+    width: 100%;
+}
+
+.profile-icon{
+    font-size: 15em;
+}
+.btn-back{
+    width: 8em;
+    height: 3em;
+}

@@ -1,0 +1,37 @@
+.add-edit-user-cnt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--color-lightgray);
+    font-size: 2em;
+    box-shadow: 2px 2px 4px var(--color-darkgray);
+}
+.add-edit-user-cnt > h2{
+    text-align: center;
+}
+.add-edit-user-cnt > form{
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    display: grid;
+    place-content: center;
+}
+.add-edit-user-cnt> form >input[type=text]{
+  width: calc(40em/1);
+  height: 3em;
+  padding: 1em;
+}
+.btn-container{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.btn-container >  button{
+    width: calc(100%/4);
+    height: 3em;
+    margin: auto;
+}
+
+
+
